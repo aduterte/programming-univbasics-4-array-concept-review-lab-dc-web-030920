@@ -1,7 +1,9 @@
 def find_element_index(array, value_to_find)
-  array.length.times { |i|
+  i = 0
+  while i < array.length {
     if array[i] == value_to_find
-    value_to_find
+      i
+    end
   }
 end
 
